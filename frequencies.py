@@ -8,9 +8,9 @@ def frequencies(items):
     for s in stringItems:
 
         if s in frequencies:
-            frequencies[i] += 1
+            frequencies[s] += 1
         else:
 
-            frequencies[i] = 1
+            frequencies[s] = 1
         
     return frequencies
